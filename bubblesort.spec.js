@@ -18,4 +18,7 @@ describe('Bubble Sort', function() {
   it('sorts negative numbers in front of positive numbers', function() {
     expect(bubbleSort([1, 2, 3, -4])).to.deep.equal([-4, 1, 2, 3]);
   });
+  it('sorts nums that are equivalent', function() {
+    expect(bubbleSort([3, 1, 3, -4])).to.deep.equal([-4, 1, 3, 3]);
+  });
 });
