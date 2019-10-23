@@ -4,7 +4,8 @@
   "description": "",
   "main": "bubblesort.js",
   "scripts": {
-    "test": "mocha bubblesort.spec.js"
+    "test": "mocha ./tests/*.spec.js",
+    "test2": "mocha ./tests/mergesort.spec.js"
   },
   "repository": {
     "type": "git",

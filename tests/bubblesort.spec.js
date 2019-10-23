@@ -1,4 +1,4 @@
-const bubbleSort = require('./bubbleSort');
+const bubbleSort = require('../bubbleSort');
 const { expect } = require('chai');
 const { describe } = require('mocha');
 
